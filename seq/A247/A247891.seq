@@ -26,7 +26,7 @@
 %o A247891   while b:
 %o A247891     a = basexor(a,b, base)
 %o A247891     b //= base
-%o A247891   print str(a)+',',
+%o A247891   print(str(a)+',', end='')
 %Y A247891 Cf. A006068 (base 2), A105529 (base 3), A226134 (base 10).
 %K A247891 nonn,base
 %O A247891 0,3

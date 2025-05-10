@@ -25,14 +25,14 @@
 %o A280364                         s+=1
 %o A280364     return s
 %o A280364 for i in range(0,51):
-%o A280364     print str(i)+" "+str(t(i))
+%o A280364     print(str(i)+" "+str(t(i)))
 %o A280364 (Python)
 %o A280364 def a(n):
 %o A280364     if n==2:
 %o A280364         return 12
 %o A280364     return (((-2*(n-1)-1)*a(n-1))/(2*(n-1)-1))+8*(n-1)**2+10*(n-1)+3
 %o A280364 for i in range(2,1001):
-%o A280364     print str(i)+" "+str(a(i))
+%o A280364     print(str(i)+" "+str(a(i)))
 %Y A280364 Cf. A280344 (Number of 2 X 2 matrices with all elements in {0,...,n} with determinant = permanent^n).
 %K A280364 nonn
 %O A280364 0,2

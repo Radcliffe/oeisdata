@@ -51,7 +51,7 @@
 %o A286237 from sympy import totient
 %o A286237 def T(n, m): return ((n + m)**2 - n - 3*m + 2)/2
 %o A286237 def t(n, k): return 0 if n%k!=0 else T(totient(k), n/k)
-%o A286237 for n in range(1, 21): print [t(n, k) for k in range(1, n + 1)] # _Indranil Ghosh_, May 10 2017
+%o A286237 for n in range(1, 21): print([t(n, k) for k in range(1, n + 1)])# _Indranil Ghosh_, May 10 2017
 %Y A286237 Transpose: A286236.
 %Y A286237 Cf. A000124 (left edge of the triangle), A000217 (every number at the right edge is a triangular number).
 %Y A286237 Cf. A000010, A000027, A002024, A002260, A004736, A051731, A053635, A054610, A286235, A286239, A286247.

@@ -6,7 +6,7 @@
 %F A242426 a(n) = A000142(n-1) / A000290(n).
 %o A242426 (Python)
 %o A242426 import math
-%o A242426 for i in range(1,32): print str(math.factorial(i)/(i**3))+',',
+%o A242426 for i in range(1,32): print(str(math.factorial(i)/(i**3))+',', end='')
 %Y A242426 Cf. A000142, A000578, A072230, A242427.
 %Y A242426 Cf. A226198 (floor(n!/n^2)).
 %K A242426 nonn

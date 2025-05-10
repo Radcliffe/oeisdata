@@ -21,9 +21,9 @@
 %o A215530   b.append(1)
 %o A215530   n += n+1
 %o A215530 for i in range(n-1):
-%o A215530   print a[i],
+%o A215530   print(a[i], end='')
 %o A215530   if b[i]!= 1 - a[i+1]:
-%o A215530     print 'error!'
+%o A215530     print('error!')
 %o A215530     break
 %o A215530 (Perl)
 %o A215530 my $A = "01";

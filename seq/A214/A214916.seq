@@ -12,7 +12,7 @@
 %o A214916 import math
 %o A214916 prpr = prev = 1
 %o A214916 for n in range(2, 33):
-%o A214916     print prpr,
+%o A214916     print(prpr, end='')
 %o A214916     cur = math.factorial(n) / prpr
 %o A214916     prpr = prev
 %o A214916     prev = cur

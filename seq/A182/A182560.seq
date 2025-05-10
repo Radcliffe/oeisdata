@@ -17,7 +17,7 @@
 %o A182560 prev = 1
 %o A182560 for n in range(2,55):
 %o A182560 .  current = (prev & prpr) ^ n
-%o A182560 .  print prpr,
+%o A182560 .  print(prpr, end='')
 %o A182560 .  prpr = prev
 %o A182560 .  prev = current
 %o A182560 (Haskell)

@@ -19,9 +19,9 @@
 %o A221158       break
 %o A221158     p += p
 %o A221158   if n&1023==0:
-%o A221158     print '.',
+%o A221158     print('.', end='')
 %o A221158   if c==2:
-%o A221158     print prev,
+%o A221158     print(prev, end='')
 %o A221158   prev, curr = curr, prev+curr
 %Y A221158 Cf. A000045, A004685, A222296.
 %K A221158 nonn,full,fini

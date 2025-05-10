@@ -12,7 +12,7 @@
 %o A237190 from sympy import isprime
 %o A237190 for n in range(2000000):
 %o A237190     if isprime(n+1) and isprime(2*n+1) and isprime(3*n+1) and isprime(4*n+1) and isprime(5*n+1):
-%o A237190         print str(n)+',',
+%o A237190         print(str(n)+',', end='')
 %Y A237190 Cf. A088250, A064238, A237189.
 %K A237190 nonn
 %O A237190 1,1

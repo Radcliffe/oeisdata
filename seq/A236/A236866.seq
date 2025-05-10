@@ -15,7 +15,7 @@
 %o A236866 for n in range(1000):
 %o A236866     if n%2 and n%3 and n%5:
 %o A236866         i+=1   # A007775(i)=n
-%o A236866         if isprime(n):  print str(i)+',',
+%o A236866         if isprime(n):  print(str(i)+',', end='')
 %o A236866 (Scheme, with Antti Karttunen's IntSeq-library):
 %o A236866 (define A236866 (MATCHING-POS 1 1 (lambda (n) (prime? (A007775 n)))))
 %o A236866 ;; Where a slow version of A007775 can be defined for example like this:

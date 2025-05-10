@@ -68,8 +68,8 @@
 %o A317248             else:
 %o A317248                 break
 %o A317248     #print results after while loop has run
-%o A317248     print base, sum(numbers, [])
-%o A317248     print numbers
+%o A317248     print(base, sum(numbers, []))
+%o A317248     print(numbers)
 %o A317248 #call main function
 %o A317248 doIt(10)
 %o A317248 (Python)

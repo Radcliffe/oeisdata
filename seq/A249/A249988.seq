@@ -11,7 +11,7 @@
 %t A249988 Table[IntegerPart[1000*Sin[n Degree]],{n,0,60}] (* _Harvey P. Dale_, May 22 2015 *)
 %o A249988 (Python)
 %o A249988 import math
-%o A249988 for n in range(381): print str(int(math.trunc(1000*math.sin(math.pi*n/180))))+',',
+%o A249988 for n in range(381): print(str(int(math.trunc(1000*math.sin(math.pi*n/180))))+',', end='')
 %Y A249988 Cf. A000493, A000494, A000484, A000480, A249989.
 %K A249988 nonn
 %O A249988 0,2

@@ -21,7 +21,7 @@
 %o A279515     x=bin(c(*range(1, n+1)))[2:]
 %o A279515     return x.count("0")
 %o A279515 for i in range(0, 10001):
-%o A279515     print str(i)+" "+str(a(i))
+%o A279515     print(str(i)+" "+str(a(i)))
 %o A279515 (PARI) a(n) = my(lcmn = lcm(vector(n, k, k))); #binary(lcmn) - hammingweight(lcmn); \\ _Michel Marcus_, Dec 23 2016
 %Y A279515 Cf. A003418, A279506.
 %K A279515 nonn,base

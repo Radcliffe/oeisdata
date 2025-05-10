@@ -19,7 +19,7 @@
 %o A309655   while diff-prime(j) >=0:
 %o A309655    diff-=prime(j)
 %o A309655    j+=1
-%o A309655   print diff,',',
+%o A309655   print(diff,',', end='')
 %Y A309655 Cf. A007504, A309714.
 %K A309655 nonn
 %O A309655 0,2

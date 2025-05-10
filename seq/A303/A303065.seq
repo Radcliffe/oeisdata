@@ -15,7 +15,7 @@
 %o A303065     c0 = b.count('0')
 %o A303065     c1 = len(b) - c0
 %o A303065     diff = c0 - c1
-%o A303065     print str(d[100+diff])+',',
+%o A303065     print(str(d[100+diff])+',', end='')
 %o A303065     d[100+diff] += 1
 %Y A303065 Cf. A037861, A097110.
 %K A303065 nonn,base

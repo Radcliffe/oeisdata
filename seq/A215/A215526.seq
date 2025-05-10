@@ -9,7 +9,7 @@
 %o A215526 (Python)
 %o A215526 a = [1]*1000
 %o A215526 for n in range(2, 77):
-%o A215526     print a[n-2],
+%o A215526     print(a[n-2], end='')
 %o A215526     a[n] = a[n-2] + a[a[n-1] % n]
 %Y A215526 Cf. A215525.
 %K A215526 nonn,easy

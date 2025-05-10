@@ -53,7 +53,7 @@
 %o A286246         if P(n) == P(x): return x
 %o A286246         else: x+=1
 %o A286246 def A(n, k): return 0 if (n + k - 1)%k!=0 else T(a046523(k), (n + k - 1)/k)
-%o A286246 for n in range(1, 21): print [A(k, n - k + 1) for k in range(1, n + 1)] # _Indranil Ghosh_, May 09 2017
+%o A286246 for n in range(1, 21): print([A(k, n - k + 1) for k in range(1, n + 1)])# _Indranil Ghosh_, May 09 2017
 %Y A286246 Transpose: A286247.
 %Y A286246 Cf. A000027, A046523, A113998, A286156, A286244, A286236.
 %K A286246 nonn,tabl

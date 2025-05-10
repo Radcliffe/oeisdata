@@ -18,7 +18,7 @@
 %o A300730        if c == 2:
 %o A300730            break
 %o A300730    if c == 1:
-%o A300730        print i
+%o A300730        print(i)
 %o A300730 S=[1, 2, 7,24,85,285,1143]
 %o A300730 S1=[0,1, 2, 7,24,85,285,1143]
 %o A300730 perms = [p for p in itertools.product(S1, repeat=len(S))]

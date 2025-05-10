@@ -30,7 +30,7 @@
 %o A330072     return output
 %o A330072 #to get the first n numbers of the sequence, write:
 %o A330072 for x in range(1, n + 1):
-%o A330072     print x, a(bitlist(x))
+%o A330072     print(x, a(bitlist(x)))
 %Y A330072 Cf. A007088, A078823, A225580.
 %K A330072 nonn,base
 %O A330072 0,3

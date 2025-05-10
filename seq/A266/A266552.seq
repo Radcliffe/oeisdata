@@ -31,7 +31,7 @@
 %o A266552         l+=[n, ]
 %o A266552         if n==2: break
 %o A266552     return l
-%o A266552 for n in range(2, 21): print a(n) # _Indranil Ghosh_, Apr 22 2017
+%o A266552 for n in range(2, 21): print(a(n))# _Indranil Ghosh_, Apr 22 2017
 %Y A266552 Cf. A266551 (image of n under the 3p+1 map).
 %Y A266552 Cf. A175871 (the repeating cycle starting at 2).
 %Y A266552 Cf. A070165 (irregular triangle read by rows giving trajectory of n in Collatz problem).

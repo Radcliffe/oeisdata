@@ -109,7 +109,7 @@
 %o A248663 def a048675(n):
 %o A248663     f=factorint(n)
 %o A248663     return 0 if n==1 else sum([f[i]*2**(primepi(i) - 1) for i in f])
-%o A248663 def a(n): return a048675(core(n)) print [a(n) for n in range(1, 101)] # _Indranil Ghosh_, Jun 21 2017
+%o A248663 def a(n): return a048675(core(n)) print([a(n) for n in range(1, 101)])# _Indranil Ghosh_, Jun 21 2017
 %Y A248663 Cf. A000040, A000079, A000720, A005117, A020639, A032742, A048672, A055396, A100112, A206284.
 %Y A248663 A048675 composed with A007913. A007814 composed with A225546.
 %Y A248663 A homomorphism from A297845/A003991 and from A329329/A059897 to A048720/A003987, mapping A206296 to A168081, A260443 to A264977, A265408 to A265407, A275734 to A275808, A276076 to A276074, A283477 to A006068.

@@ -30,7 +30,7 @@
 %o A280056                                     s+=1
 %o A280056     return s
 %o A280056 for i in range(0,201):
-%o A280056     print str(i)+" "+str(a(i))
+%o A280056     print(str(i)+" "+str(a(i)))
 %o A280056 (Python)
 %o A280056 def A280056(x):
 %o A280056     return -((x**2-5*x+6)*(-2*x**2+4*x+(-1)**x-1))/4

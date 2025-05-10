@@ -10,7 +10,7 @@
 %o A236692 import sympy
 %o A236692 from sympy import isprime
 %o A236692 for n in range(100000):
-%o A236692     if isprime(n+1) and isprime(n*2+1) and isprime(n*n+1): print str(n)+',',
+%o A236692     if isprime(n+1) and isprime(n*2+1) and isprime(n*n+1): print(str(n)+',', end='')
 %o A236692 (PARI)
 %o A236692 s=[]; for(n=1, 15000, if(isprime(n+1)&&isprime(2*n+1)&&isprime(n^2+1), s=concat(s, n))); s \\ _Colin Barker_, Jan 30 2014
 %Y A236692 Cf. A005382, A070689.

@@ -9,7 +9,7 @@
 %C A208746    for (j=2; j*j<=i; j++) {
 %C A208746      if (i % (j*j) != 0) continue;
 %C A208746      for (k=1; k<j; k++) {
-%C A208746        print i*k*k/(j*j), i*k/j, i;
+%C A208746        print(i)*k*k/(j*j), i*k/j, i;
 %C A208746      }
 %C A208746    }
 %C A208746 }

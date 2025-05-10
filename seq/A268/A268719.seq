@@ -39,7 +39,7 @@
 %o A268719         s<<=1
 %o A268719     return n
 %o A268719 def T(n, k): a003188(a006068(n) + a006068(k))
-%o A268719 for n in range(21): print [T(n, k) for k in range(n + 1)] # _Indranil Ghosh_, Jun 07 2017
+%o A268719 for n in range(21): print([T(n, k) for k in range(n + 1)])# _Indranil Ghosh_, Jun 07 2017
 %Y A268719 Cf. A003188, A006068.
 %Y A268719 Cf. A002262, A003056, A268715.
 %Y A268719 Cf. A001477 (left edge), A001969 (right edge).

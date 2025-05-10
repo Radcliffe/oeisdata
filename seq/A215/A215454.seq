@@ -21,7 +21,7 @@
 %o A215454     k += 1
 %o A215454     f *= k
 %o A215454 for i in range(1, TOP):
-%o A215454     print res[i],
+%o A215454     print(res[i], end='')
 %Y A215454 Cf. A002034 (least k such that n divides k!).
 %Y A215454 Cf. A085779 (least k such that triangular(n) divides k!).
 %Y A215454 Cf. A093896 (least positive k such that n^n divides k!).

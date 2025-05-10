@@ -72,7 +72,7 @@
 %o A215471         break
 %o A215471     z = prime[a]+prime[b]+prime[c]+prime[d]
 %o A215471     if z+prime[e]+prime[f]+prime[g]+prime[h] >= 5:
-%o A215471         print s,
+%o A215471         print(s, end='')
 %Y A215471 Cf. A215468, A215470.
 %Y A215471 Cf. A039625.
 %K A215471 nonn

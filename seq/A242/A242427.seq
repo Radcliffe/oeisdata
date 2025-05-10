@@ -6,7 +6,7 @@
 %t A242427 Table[Mod[n!,n^3],{n,80}] (* _Harvey P. Dale_, Aug 03 2017 *)
 %o A242427 (Python)
 %o A242427 import math
-%o A242427 for i in range(1,77): print str(math.factorial(i) % (i**3))+',',
+%o A242427 for i in range(1,77): print(str(math.factorial(i) % (i**3))+',', end='')
 %Y A242427 Cf. A000142, A000578, A072230, A242426.
 %K A242427 nonn
 %O A242427 1,2

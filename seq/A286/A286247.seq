@@ -56,7 +56,7 @@
 %o A286247         if P(n) == P(x): return x
 %o A286247         else: x+=1
 %o A286247 def t(n, k): return 0 if n%k!=0 else T(a046523(k), n/k)
-%o A286247 for n in range(1, 21): print [t(n, k) for k in range(1, n + 1)] # _Indranil Ghosh_, May 08 2017
+%o A286247 for n in range(1, 21): print([t(n, k) for k in range(1, n + 1)])# _Indranil Ghosh_, May 08 2017
 %Y A286247 Cf. A000027, A002024, A002260, A004736, A008683, A027375, A046523, A051731, A054718, A286245, A286249, A286237.
 %Y A286247 Cf. A000124 (left edge of the triangle), A000217 (every number at the right edge is a triangular number).
 %K A286247 nonn,tabl

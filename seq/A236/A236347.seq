@@ -23,7 +23,7 @@
 %o A236347 for n in range(1,88):
 %o A236347   ox, oy = getXY(n)
 %o A236347   nx, ny = getXY(2*n)
-%o A236347   print str(abs(nx-ox)+abs(ny-oy))+',',
+%o A236347   print(str(abs(nx-ox)+abs(ny-oy))+',', end='')
 %Y A236347 Cf. A232113, A236345, A236346.
 %K A236347 nonn
 %O A236347 1,3

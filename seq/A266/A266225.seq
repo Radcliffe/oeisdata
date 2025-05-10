@@ -15,10 +15,10 @@
 %o A266225         failed = True
 %o A266225         for x in range(2,TOP):
 %o A266225             if isprime(p*x+x-1):
-%o A266225                 print str(x)+',',
+%o A266225                 print(str(x)+',', end='')
 %o A266225                 failed = False
 %o A266225                 break
-%o A266225         if failed: print '-1,',
+%o A266225         if failed: print('-1,', end='')
 %o A266225 (PARI) a(n) = {my(x = 2); while (!isprime(prime(n)*x+x-1), x++); x;} \\ _Michel Marcus_, Dec 27 2015; corrected Jun 13 2022
 %Y A266225 Cf. A000040, A266224.
 %K A266225 nonn

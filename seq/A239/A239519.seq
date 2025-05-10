@@ -20,7 +20,7 @@
 %o A239519       if i>=n:  break
 %o A239519     sum += product
 %o A239519     k += 1
-%o A239519   print str(sum)+',',
+%o A239519   print(str(sum)+',', end='')
 %Y A239519 Cf. A227363-A227367.
 %K A239519 nonn
 %O A239519 0,3
