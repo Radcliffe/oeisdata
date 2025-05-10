@@ -83,11 +83,11 @@
 %o A215468         break
 %o A215468     k = grid[(posY-1)*SIZE+posX  ] + grid[(posY+1)*SIZE+posX  ]
 %o A215468     k+= grid[ posY   *SIZE+posX-1] + grid[ posY   *SIZE+posX+1]
-%o A215468     print(i+j+u+v+k, end='')
+%o A215468     print i+j+u+v+k,
 %o A215468 print
 %o A215468 for y in range(SIZE):
 %o A215468     for x in range(SIZE):
-%o A215468         print('%3d' % grid[y*SIZE+x], end='')
+%o A215468         print '%3d' % grid[y*SIZE+x],
 %o A215468     print
 %Y A215468 Coordinates (but 0-based): A010751, A305258.
 %Y A215468 Other spiral sums: A214176, A214177, A214226, A214227, A214230, A214231, A214250, A214251, A214252.

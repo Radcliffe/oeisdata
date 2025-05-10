@@ -5,7 +5,7 @@
 %N A286193 Decimal expansion of Sum_{n>=1} 1/(n^n+n).
 %e A286193 0.70418834992331471817126200044221857803...
 %t A286193 RealDigits[N[Sum[1/(n^n+n),{n,1,Infinity}],20]][[1]]
-%o A286193 (Python) from decimal import *;getcontext().prec=300;print(sum([Decimal(1)/Decimal(n**n+n)for n in range(1,200)]))
+%o A286193 (Python) from decimal import *;getcontext().prec=300;print sum([Decimal(1)/Decimal(n**n+n)for n in range(1,200)])
 %o A286193 (PARI) suminf(n=1, 1/(n^n+n)) \\ _Michel Marcus_, May 04 2017
 %Y A286193 Cf. A073009, A134883.
 %K A286193 nonn,cons

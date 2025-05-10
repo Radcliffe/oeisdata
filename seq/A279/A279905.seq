@@ -28,7 +28,7 @@
 %o A279905                                     s+=1
 %o A279905     return s
 %o A279905 for i in range(0,201):
-%o A279905     print(str(i)+" "+str(t(i)))
+%o A279905     print str(i)+" "+str(t(i))
 %o A279905 (Python)
 %o A279905 def a(x):
 %o A279905     return ((x-3)*(x-2)*(2*x**2+(-1)**x-1))/4

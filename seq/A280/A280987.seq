@@ -20,7 +20,7 @@
 %o A280987         s+=str(i)
 %o A280987     return int(s)
 %o A280987 for i in range(1,10001):
-%o A280987     print(str(i)+" "+str(C(i)%sigma(i)))
+%o A280987     print str(i)+" "+str(C(i)%sigma(i))
 %Y A280987 Cf. A000203, A000422, A114795.
 %K A280987 nonn,base
 %O A280987 1,4

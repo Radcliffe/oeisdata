@@ -16,7 +16,7 @@
 %o A280407                         s+=1
 %o A280407     return s
 %o A280407 for i in range(0,156):
-%o A280407     print(str(i)+" "+str(t(i)))
+%o A280407     print str(i)+" "+str(t(i))
 %Y A280407 Number of 2 X 2 matrices with all elements in {0,..,n}: A280391 (permanent = determinant * n), A280321 (determinant = permanent * n), A015237 (determinant = permanent) and A016754 (determinant = 2* permanent).
 %K A280407 nonn
 %O A280407 0,2

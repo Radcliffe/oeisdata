@@ -10,7 +10,7 @@
 %o A182509 prev = 1
 %o A182509 for n in range(2,99):
 %o A182509   current = (prev ^ n) + prpr
-%o A182509   print(prpr, end='')
+%o A182509   print prpr,
 %o A182509   prpr = prev
 %o A182509   prev = current
 %K A182509 nonn,base,easy

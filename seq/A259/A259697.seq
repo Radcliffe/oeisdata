@@ -39,7 +39,7 @@
 %o A259697 from sympy import bell, binomial
 %o A259697 def a011971(n, k): return sum([binomial(k, i)*bell(n - k + i) for i in range(k + 1)])
 %o A259697 def T(n, k): return 1 if k==0 else sum([a011971(i - 1, k - 1) for i in range(k, n + 1)])
-%o A259697 for n in range(10): print([T(n, k) for k in range(n + 1)])# _Indranil Ghosh_, Jun 17 2017
+%o A259697 for n in range(10): print [T(n, k) for k in range(n + 1)] # _Indranil Ghosh_, Jun 17 2017
 %Y A259697 Right edge is A000110.
 %Y A259697 Column k=1 is A005001.
 %Y A259697 Row sums are A000110(n+1).

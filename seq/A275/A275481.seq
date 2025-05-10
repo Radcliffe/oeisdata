@@ -31,7 +31,7 @@
 %o A275481     for n in l:
 %o A275481         if n <= k and l.count(n) == 1 :
 %o A275481             unique.append(n)
-%o A275481     print(sorted(unique))
+%o A275481     print sorted(unique)
 %Y A275481 Subsequence of A007401, which is the complement of A000096.
 %Y A275481 Cf. A009766, A275586 (complement).
 %K A275481 easy,nonn

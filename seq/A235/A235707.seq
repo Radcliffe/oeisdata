@@ -7,7 +7,7 @@
 %t A235707 Table[Floor[n^2 Log[n]], {n, 1, 50}] (* _Vincenzo Librandi_, Apr 22 2014 *)
 %o A235707 (Python)
 %o A235707 import math
-%o A235707 for n in range(1,100):  print(str(int(n*n*math.log(n)))+',', end='')
+%o A235707 for n in range(1,100):  print str(int(n*n*math.log(n)))+',',
 %o A235707 (Magma) [Floor(n^2 * Log(n)): n in [1..50]]; // _Vincenzo Librandi_, Apr 22 2014
 %Y A235707 Cf. A050504.
 %K A235707 nonn,easy

@@ -19,7 +19,7 @@
 %o A215581   n += k
 %o A215581   k += 1
 %o A215581 for k in range(n):
-%o A215581   print(a[k], end='')
+%o A215581   print a[k],
 %Y A215581 Cf. A094186, A215531, A215532.
 %K A215581 nonn,easy
 %O A215581 0

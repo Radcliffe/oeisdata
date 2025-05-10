@@ -37,7 +37,7 @@
 %o A266281             if str(n) in result:
 %o A266281                 bflag = lenn
 %o A266281                 aflag = 1
-%o A266281     print(alfa)
+%o A266281     print alfa
 %o A266281     alfa = beta
 %Y A266281 Cf. A257664, A265740, A265756.
 %K A266281 nonn,base

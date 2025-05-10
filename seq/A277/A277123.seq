@@ -12,7 +12,7 @@
 %o A277123   while not sympy.isprime(p):  p+=1    # find the n'th prime
 %o A277123   sum += p*p
 %o A277123   p+=1
-%o A277123   if sympy.isprime(sum):  print(str(n)+',', end='')
+%o A277123   if sympy.isprime(sum):  print str(n)+',',
 %o A277123 (PARI) lista(nn) = for(n=1, nn, if(isprime(1+sum(i=1, n, prime(i)^2)), print1(n, ", "))); \\ _Altug Alkan_, Oct 01 2016
 %Y A277123 Cf. A000040, A013916, A089228, A131694, A159260.
 %K A277123 nonn

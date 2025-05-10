@@ -11,7 +11,7 @@
 %o A237191 for n in range(0,1000000000,2):
 %o A237191     if isprime(n+1) and isprime(n*n+1) and isprime(n**4+1):
 %o A237191         if isprime(n+3) and isprime(n*n+3) and isprime(n**4+3):
-%o A237191             print(str(n)+',', end='')
+%o A237191             print str(n)+',',
 %Y A237191 Cf. A067662, A070325, A070689, A080149.
 %K A237191 nonn
 %O A237191 1,1

@@ -26,7 +26,7 @@
 %o A225727 for p in primes:
 %o A225727   sum += primorial
 %o A225727   primorial *= p
-%o A225727   if sum % n == 0:  print(n, end='')
+%o A225727   if sum % n == 0:  print n,
 %o A225727   n += 1
 %o A225727 (Python)
 %o A225727 from itertools import chain, accumulate, count, islice

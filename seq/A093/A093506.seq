@@ -15,7 +15,7 @@
 %o A093506     for(i=0*k=!k; i<a[p]&&n<max; i++) {
 %o A093506         an=oe[k]+=2;
 %o A093506         if (++n<maxarray) a[n]=an;
-%o A093506         print(a)n, ", "
+%o A093506         print an, ", "
 %o A093506     };
 %o A093506 }; /* _Carl R. White_, Jan  05 2013 */
 %o A093506 (Haskell)

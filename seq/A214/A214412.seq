@@ -32,7 +32,7 @@
 %o A214412             break
 %o A214412         i += 1
 %o A214412     if yes==0:
-%o A214412         print(n, end='')
+%o A214412         print n,
 %Y A214412 Cf. A000045, A132144, A214410.
 %K A214412 nonn,easy
 %O A214412 1,2

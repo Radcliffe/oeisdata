@@ -21,7 +21,7 @@
 %o A225728 for p in primes:
 %o A225728   sum += primorial
 %o A225728   primorial *= p
-%o A225728   if sum % p == 0:  print(p, end='')
+%o A225728   if sum % p == 0:  print p,
 %o A225728 (PARI) s=P=1;forprime(p=2,1e6,s+=P*=p;if(s%p==0,print1(p", "))) \\ _Charles R Greathouse IV_, Mar 19 2014
 %o A225728 (PARI) is(p)=if(!isprime(p),return(0)); my(s=Mod(1,p),P=s); forprime(q=2,p-1,s+=P*=q); s==0 \\ _Charles R Greathouse IV_, Mar 19 2014
 %o A225728 (Python)

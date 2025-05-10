@@ -12,7 +12,7 @@
 %o A215452 (Python)
 %o A215452 sum = a = 1
 %o A215452 for n in range(2,333):
-%o A215452     print(a, end='')
+%o A215452     print a,
 %o A215452     a = sum % (a+n)
 %o A215452     sum += a
 %Y A215452 Cf. A094405, A066910, A215451.

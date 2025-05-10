@@ -15,7 +15,7 @@
 %o A182511 prev = 2
 %o A182511 for n in range(2,99):
 %o A182511   current = (prpr * prev) % n + 1
-%o A182511   print(prpr, end='')
+%o A182511   print prpr,
 %o A182511   prpr = prev
 %o A182511   prev = current
 %Y A182511 Cf. A182458.

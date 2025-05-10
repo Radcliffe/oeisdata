@@ -52,7 +52,7 @@
 %o A214251     k+= grid[(posY-1)*SIZE+posX-1] + grid[(posY-1)*SIZE+posX+1]
 %o A214251     k+= grid[(posY+1)*SIZE+posX-1] + grid[(posY+1)*SIZE+posX+1]
 %o A214251     k+= grid[posY*SIZE+posX-1] + grid[posY*SIZE+posX+1]
-%o A214251     print(k, end='')
+%o A214251     print k,
 %Y A214251 Cf. A214230.
 %Y A214251 Cf. A214252.
 %K A214251 nonn,easy

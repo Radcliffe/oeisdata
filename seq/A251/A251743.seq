@@ -18,7 +18,7 @@
 %o A251743         ret += ((1 << level) + nc2(1 << level))
 %o A251743     return ret
 %o A251743 for height in range(1, 33):
-%o A251743     print(numAdjacentNodes(height))
+%o A251743     print numAdjacentNodes(height)
 %K A251743 nonn
 %O A251743 1,1
 %A A251743 _Dhruv Matani_, Dec 07 2014

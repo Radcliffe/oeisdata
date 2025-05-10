@@ -21,7 +21,7 @@
 %o A214754     return 0
 %o A214754 for p in oddPrimes:
 %o A214754     if tryPartioning(bin(p)[2:]):
-%o A214754         print(p, end='')
+%o A214754         print p,
 %Y A214754 Cf. A090423.
 %K A214754 nonn,base
 %O A214754 1,1

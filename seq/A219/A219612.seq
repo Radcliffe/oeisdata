@@ -19,7 +19,7 @@
 %o A219612 sum, prpr, prev = 0, 0, 1
 %o A219612 for i in range(1, 1000):
 %o A219612   sum += prpr
-%o A219612   if sum % i == 0:  print(i, end='')
+%o A219612   if sum % i == 0:  print i,
 %o A219612   prpr, prev = prev, prpr+prev
 %o A219612 (PARI) lista(nn) = {sf = 0; for (n=0, nn, sf += fibonacci(n); if (sf % (n+1) == 0, print1(n+1, ", ")););} \\ _Michel Marcus_, Jun 05 2013
 %Y A219612 Cf. A000045, A000071, A023172, A045345, A101907.

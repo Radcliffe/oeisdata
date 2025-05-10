@@ -20,7 +20,7 @@
 %o A286159 (Python)
 %o A286159 def T(a, b): return ((a + b)**2 + 3*a + b)/2
 %o A286159 def a(n, k): return T(n%k, int(n/k))
-%o A286159 for n in range(1, 21): print([a(n , k) for k in range(1, n + 1)][::-1])# _Indranil Ghosh_, May 20 2017
+%o A286159 for n in range(1, 21): print [a(n , k) for k in range(1, n + 1)][::-1]  # _Indranil Ghosh_, May 20 2017
 %Y A286159 Transpose: A268158.
 %Y A286159 Cf. A000012, A000217, A268156, A268157.
 %Y A286159 Rows converge towards A034856.

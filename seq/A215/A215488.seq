@@ -12,7 +12,7 @@
 %o A215488 (Python)
 %o A215488 a = [1]*1000
 %o A215488 for n in range(1,777):
-%o A215488     print(a[n-1], end='')
+%o A215488     print a[n-1],
 %o A215488     a[n]= a[n-1] + a[2*n & n]
 %Y A215488 Cf. A213370.
 %K A215488 nonn,base,easy

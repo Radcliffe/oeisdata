@@ -23,7 +23,7 @@
 %o A279063                             s+=1
 %o A279063     return s
 %o A279063 for i in range(0,151):
-%o A279063     print(str(i)+" "+str(t(i)))
+%o A279063     print str(i)+" "+str(t(i))
 %Y A279063 Cf. A211031 (where in the entries can be repeated).
 %K A279063 nonn
 %O A279063 0,4

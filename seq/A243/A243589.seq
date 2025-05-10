@@ -16,7 +16,7 @@
 %o A243589     BL = len(bin(n))-2
 %o A243589     x = (n>>1) + ((n&1) << (BL-1))   # A038572(n)
 %o A243589     x^= (n*2) - (1<<BL) + 1   # A006257(n)  for n>0
-%o A243589     print(str(x)+',', end='')
+%o A243589     print str(x)+',',
 %Y A243589 Cf. A006257, A035327, A038572, A055120.
 %K A243589 nonn,easy,base,look
 %O A243589 1,4

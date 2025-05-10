@@ -16,7 +16,7 @@
 %o A215448 a[1]=0
 %o A215448 sum = a[0]+a[1]
 %o A215448 for n in range(2,33):
-%o A215448     print(a[n-2], end='')
+%o A215448     print a[n-2],
 %o A215448     a[n] = a[n-1] + a[n-2] + sum
 %o A215448     sum += a[n]
 %Y A215448 Cf. A052536: same formula, seed {0, 1}, first term removed.

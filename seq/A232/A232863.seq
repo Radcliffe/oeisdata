@@ -12,9 +12,9 @@
 %o A232863   o *= 2*n-1
 %o A232863   f *= n
 %o A232863   cur = o % f
-%o A232863   if prev>cur:  print(str(n-1)+',', end='')
+%o A232863   if prev>cur:  print str(n-1)+',',
 %o A232863   prev=cur
-%o A232863   if (n&8191)==0:  print('.', end='')
+%o A232863   if (n&8191)==0:  print '.',
 %Y A232863 Cf. A000142, A006882, A232620, A232701.
 %K A232863 nonn,hard,more
 %O A232863 1,1

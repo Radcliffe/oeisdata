@@ -11,7 +11,7 @@
 %o A182510 prev = 1
 %o A182510 for n in range(2,99):
 %o A182510   current = (prev ^ n) - prpr
-%o A182510   print(prpr, end='')
+%o A182510   print prpr,
 %o A182510   prpr = prev
 %o A182510   prev = current
 %o A182510 (PARI) v=vector(100);v[1]=0;v[2]=1;for(i=3,#v,v[i]=bitxor(v[i-1],i-1)-v[i-2]); v \\ _Charles R Greathouse IV_, May 03 2012

@@ -22,7 +22,7 @@
 %o A279506     x=bin(c(*range(1,n+1)))[2:]
 %o A279506     return x.count("1")
 %o A279506 for i in range(0,10001):
-%o A279506     print(str(i)+" "+str(a(i)))
+%o A279506     print str(i)+" "+str(a(i))
 %o A279506 (PARI) a(n) = hammingweight(lcm(vector(n, k, k))); \\ _Michel Marcus_, Dec 14 2016
 %Y A279506 Cf. A000120, A003418.
 %K A279506 nonn,base

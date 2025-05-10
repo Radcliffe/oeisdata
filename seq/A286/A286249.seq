@@ -47,7 +47,7 @@
 %o A286249         if P(n) == P(x): return x
 %o A286249         else: x+=1
 %o A286249 def t(n, k): return 0 if n%k!=0 else T(a046523(n/k), k)
-%o A286249 for n in range(1, 21): print([t(n, k) for k in range(1, n + 1)])# _Indranil Ghosh_, May 08 2017
+%o A286249 for n in range(1, 21): print [t(n, k) for k in range(1, n + 1)] # _Indranil Ghosh_, May 08 2017
 %Y A286249 Transpose: A286248 (triangle reversed).
 %Y A286249 Cf. A000027, A008683, A027375, A046523, A054718, A054525, A286156, A286247, A286239.
 %Y A286249 Cf. A000124 (the right edge of the triangle).

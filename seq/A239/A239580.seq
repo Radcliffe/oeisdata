@@ -17,7 +17,7 @@
 %o A239580       if i>n: break
 %o A239580     sum += product
 %o A239580     k += 1
-%o A239580   if isprime(sum):  print(str(n)+',', end='')
+%o A239580   if isprime(sum):  print str(n)+',',
 %Y A239580 Cf. A227364.
 %K A239580 nonn
 %O A239580 1,1

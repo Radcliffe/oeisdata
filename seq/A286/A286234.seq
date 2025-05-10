@@ -43,7 +43,7 @@
 %o A286234 from sympy import totient
 %o A286234 def T(n, m): return ((n + m)**2 - n - 3*m + 2)/2
 %o A286234 def t(n, k): return T(totient(k), int(n/k))
-%o A286234 for n in range(1, 21): print([t(n, k) for k in range(1, n + 1)][::-1])# _Indranil Ghosh_, May 11 2017
+%o A286234 for n in range(1, 21): print [t(n, k) for k in range(1, n + 1)][::-1] # _Indranil Ghosh_, May 11 2017
 %Y A286234 Transpose: A286235.
 %Y A286234 Cf. A000010, A000027, A286156, A286236, A286244.
 %K A286234 nonn,tabl
